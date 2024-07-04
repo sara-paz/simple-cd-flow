@@ -8,10 +8,7 @@ variable "AWS_SECRET_KEY" {
   description = "aws secret key"    
 }
 
-variable "aws_ec2_name" {
-    type = string
-    default = "myTfTest"
-}
+
 
 variable "aws_ami_id" {
     type = string

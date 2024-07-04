@@ -16,7 +16,6 @@ provider "aws" {
 
 
 resource "aws_instance" "tf_ec2" {
-    name = var.aws_ec2_name
     ami = var.aws_ami_id
     instance_type = var.aws_instance_type
     security_groups = ["allow_tls"]
