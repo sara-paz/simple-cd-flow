@@ -19,5 +19,4 @@ variable "aws_availability_zone" {
     default = ""
 }
 
-variable "ec2_id" {}
-variable "ec2_arn" {}
+
