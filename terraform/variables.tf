@@ -1,9 +1,9 @@
-variable "TF_ENV_AWS_ACCESS_KEY" {
+variable "AWS_ACCESS_KEY" {
   type        = string
   description = "aws access key"
 }
 
-variable "TF_ENV_AWS_ACCESS_KEY" {
+variable "AWS_ACCESS_KEY" {
   type        = string
   description = "aws secret key"    
 }
