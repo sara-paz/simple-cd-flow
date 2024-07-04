@@ -8,6 +8,11 @@ variable "AWS_SECRET_KEY" {
   description = "aws secret key"    
 }
 
+variable "AWS_REGION" {
+  type        = string
+  description = "aws region"
+  default     = "eu-north-1"    
+}
 
 
 variable "aws_ami_id" {
