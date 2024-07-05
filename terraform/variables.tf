@@ -17,7 +17,7 @@ variable "AWS_REGION" {
 
 variable "aws_ami_id" {
     type = string
-    default = "ami-0fe310dde2a8fdc5c"
+    default = "ami-06c68f701d8090592"
 }
 
 variable "aws_instance_type" {
